@@ -1,0 +1,24 @@
+{
+  "name": "create-react-component",
+  "version": "0.1.0",
+  "description": "A tool to create React component files and boilerplate code within a project directory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keithburgie/create-react-component.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "library"
+  ],
+  "author": "Keith Burgie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keithburgie/create-react-component/issues"
+  },
+  "homepage": "https://github.com/keithburgie/create-react-component#readme"
+}
