@@ -64,8 +64,11 @@ else
     STYLES_PATH="$BASE_PATH"
 fi
 
+CONFIG_DIR="$HOME/.create-react-component"
+mkdir -p $CONFIG_DIR
+
 # Save configurations to a file
-cat << EOF > create-react-component.config.sh
+cat << EOF > "$CONFIG_DIR/config.sh"
 BASE_PATH="$BASE_PATH"
 USE_TYPESCRIPT="$USE_TYPESCRIPT"
 INCLUDE_TYPES_FILE="$INCLUDE_TYPES_FILE"
@@ -77,5 +80,6 @@ USE_CSS_MODULES="$USE_CSS_MODULES"
 STYLES_PATH="$STYLES_PATH"
 EOF
 
-echo "Configurations saved to create-react-component.config.sh"
-echo "You can modify create-react-component.config.sh at any time to adjust your configurations."
+echo "Configurations saved to $CONFIG_DIR/config.sh"
+echo "You can modify this file at any time to adjust your configurations."
+

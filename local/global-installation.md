@@ -12,7 +12,7 @@ mkdir ~/scripts
 Navigate to where you saved the script and make it executable:
 
 ```
-chmod +x ~/scripts/create-component.sh
+chmod +x ~/scripts/create-react-component.sh
 ```
 
 ### 3. Adding Script Path to `$PATH` Variable
@@ -48,7 +48,7 @@ create-react-component.sh ComponentName
 For a shorter command, create an alias. Add this line to your `.bashrc` or `.zshrc`:
 
 ```
-alias crc="create-component.sh"
+alias crc="create-react-component.sh"
 ```
 
 After sourcing your rc file:

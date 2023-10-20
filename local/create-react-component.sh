@@ -2,6 +2,9 @@
 
 # Load configurations
 CONFIG_FILE="create-react-component.config.sh"
+CONFIG_DIR="$HOME/.create-react-component"
+CONFIG_FILE="$CONFIG_DIR/config.sh"
+
 if [[ -f $CONFIG_FILE ]]; then
     source $CONFIG_FILE
 else

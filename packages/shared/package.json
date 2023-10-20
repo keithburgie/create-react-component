@@ -1,15 +1,8 @@
 {
-  "name": "@kbui/create-react-component-cli",
+  "name": "component-generator",
   "version": "0.1.0",
-  "description": "A command line tool to create React component files and boilerplate code.",
+  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "shared": "0.1.0"
-  },
-  "bin": {
-    "create-react-component": "./index.js",
-    "crc": "./index.js"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,13 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/keithburgie/create-react-component.git"
   },
-  "keywords": [
-    "react",
-    "component",
-    "library"
-  ],
-  "author": "Keith Burgie",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/keithburgie/create-react-component/issues"
   },
